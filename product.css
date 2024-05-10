@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+header {
+    background-color: #5d8f70;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+nav {
+    background-color: #b2cdbc;
+    padding: 10px;
+    text-align: center;
+}
+nav ul a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    margin: 0 10px;
+    font-weight: bold;
+}
+nav ul a:hover{
+    background-color: #fff;
+    color: #5d8f70 ;
+    border-radius: 10px;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+nav ul a:active {
+    background-color: #fff;
+    color: #5ca296; 
+}
+section {
+    padding: 20px;
+    text-align:center;
+    background-color: #cbddd2;
+    background-size: cover;
+}
+.items{
+    display:grid;
+    grid-template-columns:repeat(5,1fr);
+    padding: 10px;
+    grid-column-gap:10px;
+    grid-row-gap:10px;
+}
+.item img{
+    border-radius: 10px;
+    width:200px;
+    height:260px;
+    object-fit: cover;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+.item img:hover{
+    transform: scale(1.05);
+}
+.item button{
+    background-color: #5d8f70;
+    cursor:pointer;
+    color:white;
+    padding:8px;
+    border-radius: 10px;
+}
+.item button:hover{
+    transform: scale(1.10);
+}
+footer{
+    text-align:center;
+    background-color:#5d8f70 ;
+    padding: 10px;
+}
+.product {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.product .name {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.product .price {
+    color: green; /* or any color you prefer */
+    font-size: 16px;
+}
